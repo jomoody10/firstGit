@@ -3,10 +3,10 @@ import java.nio.*;
 import java.util.*;
 
 /**
- * JavaParser.
- * Parse a Java program into individual words.
+ * Copied from JavaParser.
+ * Parses a Java program into individual words and sorts them alphabetically.
  *
- * @author Jason Miller
+ * @author Jason Miller & Jon Moody
  * @version 1.0
  */
 public class Jon{
@@ -61,6 +61,7 @@ public class Jon{
      * Take input from the reader.
      * Break the input into lines.
      * On each line, call printWordByWord().
+     * After all words have been read, sort the ArrayList in alphabetical order
      * Do nothing unless openFile() has run successfully.
      */
     public void printLineByLine() throws IOException {
